@@ -60,6 +60,11 @@ form > input[type=submit]{
 form > input[type=submit]:hover{
     background-color: #234d4b;
 }
+.campo >input{
+    border-radius: 5px;
+    padding: 2px;
+    border: .1px solid black;
+}
  form > a.botao{
     display: block;
     text-align: center;
@@ -73,4 +78,6 @@ form > input[type=submit]:hover{
 }
 .campo{
     margin: 5px;
+    display: block;
+    text-align: center;
 }
