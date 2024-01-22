@@ -46,3 +46,31 @@ main{
 #formulario > p{
     font-size: 14px;
 }
+form > input[type=submit]{
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    background-color: #49a09de7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #234d4b;
+}
+ form > a.botao{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.botao:hover{
+    color: rgb(34, 82, 238);
+    text-decoration: underline;
+}
+.campo{
+    margin: 5px;
+}
